@@ -128,7 +128,8 @@ menu {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    overflow-x: hidden;
+     
 
     background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
     background-size: cover;
@@ -162,7 +163,8 @@ menu {
 
 
 .texto {
-    width: 300px;
+    width: 250px;
+    
     text-align: justify;
     color: black;
 }
@@ -234,6 +236,7 @@ menu {
 .texto {
     text-align: justify;
     color: black;
+
 }
 
 .cards02 .texto {
@@ -294,6 +297,6 @@ footer a:hover {
 
 }
 
-.fundo {
+/*.fundo {
     visibility: hidden;
-}
+}*/
