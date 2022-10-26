@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    list-style: none;
+    text-decoration: none;
+
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100%;
+    
+}
+
+.menu-button_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.925);
+}
+
+.menu-button {
+    cursor: pointer;
+}
+
+.menu-button div {
+    width: 30px;
+    height: 3.2px;
+    margin: 5px;
+    background-color: black;
+}
+
+menu {
+    background-color: rgba(0, 0, 0, 0.829);
+    height: 0px;
+    transition: 500ms ease;
+    overflow-y: hidden;
+}
+
+.menu-list {
+    transform: translate(-50%);
+    transition: transform 500ms;
+}
+
+.menu-list li {
+    padding: 10px 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.055);
+    letter-spacing: 3px;
+}
+
+.menu-list li a {
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.menu-list li:hover {
+    background-color: rgba(0, 0, 255, 0.24);
+}
+
+.subheader {
+    background: url('/imagens/fundo/fundo-main.png') no-repeat center center;
+    background-size: cover;
+    height: 75vh;
+   
+}
+
+.black-backgorund {
+    background-color: rgba(0, 0, 0, 0.733);
+    height: 75vh;
+}
+
+.subheader .slogan span {
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 2em;
+    position: relative;
+    left: 00px;
+    top: 150px;
+}
+
+.subheader .slogan .span02 {
+    font-size: 3.5em;
+}
+
+.subheader .paragraph span {
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.61);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    font-style: italic;
+    position: relative;
+    left: -50px;
+    top: 290px;
+}
+
+.subheader .paragraph .link {
+    padding-top: 10px;
+}
+
+.subheader .paragraph span a {
+    color: white;
+    padding: 10px;
+    border: 3px solid rgb(35, 35, 104);
+    border-radius: 8px;
+}
+
+.cards01 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+    background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+}
+
+.cards01 .fundo {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px;
+    overflow-y: hidden;
+    background-color: rgba(255, 255, 255, 0.712);
+    border-radius: 10px;
+
+}
+
+.fundo:hover {
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.26);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
+}
+
+
+.cards01 .imagem {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+
+.texto {
+    width: 300px;
+    text-align: justify;
+    color: black;
+}
+
+.cards01 .texto {
+    padding: 10px;
+    line-height: 1.7em;
+}
+
+.cards01 .texto .p2 {
+    transform: translateY(150%);
+    transition: 700ms ease;
+    padding-top: 10px;
+    
+}
+
+.cards01 .texto .p2 a {
+    color: black;
+    border: 3ps solid blue;  
+}
+
+.fundo:hover .p2 {
+    transform: translateY(0);
+    transition: 700ms ease;
+    
+} /**/
+
+.cards02 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+
+    
+}
+
+.cards02 .fundo {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 10px;
+    overflow-y: hidden;
+    transition: 700ms ease;
+    border-radius: 10px;
+}
+
+.fundo:hover {
+    border-radius: 10px;
+    border: 3px solid rgba(0, 0, 0, 0.26);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
+    transform: scale(1.05);
+    transition: 700ms ease;
+}
+
+
+.cards02 .imagem {
+    padding: 50px;
+   
+    background-color: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+}
+
+
+.texto {
+    width: 300px;
+    text-align: justify;
+    color: black;
+}
+
+.cards02 .texto {
+    padding: 10px;
+    line-height: 1.7em;
+}
+
+.cards02 .texto .p2 {
+    transform: translateY(150%);
+    transition: 700ms ease;
+    padding-top: 10px;
+    
+}
+
+.cards02 .texto .p2 a {
+    color: black;
+    border: 3ps solid blue;  
+}
+
+article {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.925);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 30px;
+}
+
+footer p {
+    padding-bottom: 2px;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/*SCRIPTS*/
+.show-menu {
+    height: 42vh;
+    transition: 500ms ease;
+}
+
+.show-menu-list {
+    transform: translate(0);
+    transition: transform 500ms;
+
+}
+
+.fundo {
+    visibility: hidden;
+}

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@media  screen and (min-width: 768px) {
+    .menu-button {
+        display: none;
+    }
+
+    .menu-button_logo {
+        background: none;
+    }
+
+    /*.logo {
+        position: relative;
+        left: 100px;
+    }*/
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+    }
+
+   
+
+    menu {
+        background: none;
+        overflow-y: visible;
+    }
+
+    .menu-list {
+        display: flex;
+            transform: translate(0);
+            transition: transform 0ms;
+    }
+
+    .menu-list li {
+        letter-spacing: 3px;
+        margin-left: 20px;
+        padding: 0;
+        padding: 15px 20px;
+        border: none;
+    }
+
+    .menu-list li a {
+        color: black;
+        font-weight: 500;
+    }
+
+    .cards01, .cards02 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
