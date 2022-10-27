@@ -1,3 +1,3 @@
 
 
-ScrollReveal().reveal('.fundo', {duration: 5000});
+ScrollReveal().reveal('.fundo', {duration: 2000});
