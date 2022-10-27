@@ -137,7 +137,7 @@ menu {
     border-radius: 8px;
 }
 
-.cards01 {
+.cards01, .cards02 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -151,7 +151,7 @@ menu {
     padding: 30px;
 }
 
-.cards01 .fundo {
+.fundo {
     margin-bottom: 20px;
     background-color: white;
     padding: 10px;
@@ -166,108 +166,108 @@ menu {
     border-radius: 10px;
     border: 3px solid rgba(0, 0, 0, 0.26);
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
-}
-
-
-.cards01 .imagem {
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.37);
-    border-radius: 10px;
-}
-
-
-.texto {
-    width: 250px;
-    
-    text-align: justify;
-    color: black;
-}
-
-.cards01 .texto {
-    padding: 10px;
-    line-height: 1.7em;
-}
-
-.cards01 .texto .p2 {
-    transform: translateY(150%);
-    transition: 700ms ease;
-    padding-top: 10px;
-    
-}
-
-.cards01 .texto .p2 a {
-    color: black;
-    border: 3ps solid blue;  
-}
-
-.fundo:hover .p2 {
-    transform: translateY(0);
-    transition: 700ms ease;
-    
-} /**/
-
-.cards02 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-
-    background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 30px;
-
-    
-}
-
-.cards02 .fundo {
-    margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.712);
-    padding: 10px;
-    overflow-y: hidden;
-    transition: 700ms ease;
-    border-radius: 10px;
-    
-}
-
-.fundo:hover {
-    border-radius: 10px;
-    border: 3px solid rgba(0, 0, 0, 0.26);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
     transform: scale(1.05);
     transition: 700ms ease;
 }
 
 
-.cards02 .imagem {
-    padding: 50px;
-   
-    background-color: rgba(0, 0, 0, 0.37);
+.imagem-en {
+    padding: 30px;
+    background: url('/imagens/fundo/fundo01.jpg') no-repeat center center;
     border-radius: 10px;
+    text-align: center;
+    height: 150px;
 }
 
+.imagem-fr {
+    padding: 30px;
+    background: url('/imagens/fundo/fundo02.jpg') no-repeat center right;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+}
+
+
+.imagem-esp {
+    padding: 30px;
+    background: url('/imagens/fundo/fundo03.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    
+}
+
+ .imagem-pt {
+    padding: 30px;
+    background: url('/imagens/fundo/fundo-4.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    
+}
+
+.imagem-ch {
+    padding: 30px;
+    background: url('/imagens/fundo/fundo-5.jpg') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+}
+
+
+.imagem-ben {
+    padding: 30px;
+    background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+}
+
+.en-fundo {
+    position: relative;
+    top: -150px;
+    padding: 30px;
+    height: 150px;
+
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
 
 .texto {
+    width: 250px;
+    margin-top: -150px;
     text-align: justify;
     color: black;
-
-}
-
-.cards02 .texto {
     padding: 10px;
     line-height: 1.7em;
 }
 
-.cards02 .texto .p2 {
+.texto h2 {
+    padding: 15px 20px;
+    font-style: italic;
+    font-size: 1.9em;
+}
+
+.texto .p2 {
     transform: translateY(150%);
     transition: 700ms ease;
     padding-top: 10px;
     
 }
 
-.cards02 .texto .p2 a {
+.texto .p2 a {
     color: black;
     border: 3ps solid blue;  
+}
+
+.fundo:hover .texto .p2 {
+    transform: translateY(0);
+    transition: 700ms ease;
+    
 }
 
 article {
