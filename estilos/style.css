@@ -88,14 +88,14 @@ menu {
     align-items: center;
     flex-direction: column;
     font-style: italic;
-    font-size: 2em;
+    font-size: 1.5em;
     position: relative;
     left: 00px;
     top: 150px;
 }
 
 .subheader .slogan .span02 {
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .subheader .paragraph span {
@@ -264,10 +264,7 @@ article {
 
 footer {
     background-color: rgba(0, 0, 0, 0.925);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
 
     padding: 30px;
 }
@@ -287,7 +284,7 @@ footer a:hover {
 
 /*SCRIPTS*/
 .show-menu {
-    height: 42vh;
+    height: 50vh;
     transition: 500ms ease;
 }
 
