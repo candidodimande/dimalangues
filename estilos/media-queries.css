@@ -2,9 +2,7 @@
 
 @media  screen and (min-width: 768px) {
 
-    .imagem img {
-        width: 200px;
-    }
+    
     .menu-button {
         display: none;
     }
