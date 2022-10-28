@@ -76,7 +76,7 @@ menu {
 }
 
 .subheader {
-    background: url('/imagens/fundo/fundo-main.png') no-repeat center center;
+    background: var(--lightblue) url('/imagens/fundo/fundo-main.png') no-repeat center center;
     background-size: cover;
     height: 100%;
    
