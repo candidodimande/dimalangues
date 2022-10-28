@@ -260,12 +260,18 @@ menu {
     transform: translateY(150%);
     transition: 700ms ease;
     padding-top: 10px;
-    
+     
 }
 
 .texto .p2 a {
-    color: black;
-    border: 3ps solid blue;  
+    color: white;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.texto .p2 a:hover {
+    letter-spacing: 2px;
 }
 
 .fundo:hover .texto .p2 {
