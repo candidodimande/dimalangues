@@ -98,8 +98,10 @@ menu {
 }
 
 .subheader .slogan .span01 {
-    font-size: 2.2em;
-    width: 250px;
+    font-size: 1.5em;
+    width: 200px;
+    position: relative;
+    left: 57%;
 }
 
 .subheader .slogan .span02 {
@@ -108,7 +110,7 @@ menu {
 
 .subheader .slogan .span03 {
     margin-top: 10px;
-    font-size: 7em;
+    font-size: 5.6em;
 }
 
 .subheader .paragraph span {
