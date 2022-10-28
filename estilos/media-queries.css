@@ -1,6 +1,26 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
+/*@media screen and (min-width: 600px) and (max-width: 768px) {
+    .subheader .slogan span {
+        position: relative;
+        left: 50%;
+        top: 50px;
+    }
+
+    .subheader .slogan .span01 {
+        font-size: 2em;
+        width: 100%;
+        position: relative;
+        left: 50%;
+    }
+
+    .subheader .slogan .span03 {
+        margin-top: 40px;
+        font-size: 5em;
+    }
+}*/
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
     .subheader .slogan span {
         position: relative;
         left: 50%;
@@ -27,7 +47,7 @@
 
     .fundo {
         width: 500px;
-        p
+    
         
     }
 
