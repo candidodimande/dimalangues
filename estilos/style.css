@@ -11,6 +11,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --darkblue: #133b4e;
+    --lighterblue: #287396;
+    --lightblue: #1e5874;
+    --lightestblue: #489cc4;
+}
+
 html {
     min-height: 100%;
     overflow-x: hidden;
@@ -65,7 +72,7 @@ menu {
 }
 
 .menu-list li:hover {
-    background-color: rgba(0, 0, 255, 0.24);
+    background-color: var(--darkblue);
 }
 
 .subheader {
@@ -111,6 +118,8 @@ menu {
 .subheader .slogan .span03 {
     margin-top: 10px;
     font-size: 5.6em;
+    color: #133b4e;
+    font-weight: 600;
 }
 
 .subheader .paragraph span {
@@ -136,9 +145,15 @@ menu {
 
 .subheader .paragraph span a {
     color: white;
-    padding: 10px;
-    border: 3px solid rgb(35, 35, 104);
+    padding: 8px;
+    border: 4px solid var(--lightblue);
     border-radius: 8px;
+    transition: 500ms ease;
+}
+
+.subheader .paragraph span a:hover {
+    border: 4px solid var(--lightestblue);
+    transition: 500ms ease;
 }
 
 .cards01, .cards02 {
@@ -149,7 +164,7 @@ menu {
     overflow-x: hidden;
      
 
-    background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
+    background: var(--darkblue) url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 30px;
@@ -158,7 +173,7 @@ menu {
 .fundo {
     margin-bottom: 20px;
     background-color: white;
-    padding: 10px;
+    padding: 30px;
     overflow-y: hidden;
     background-color: rgba(255, 255, 255, 0.712);
     border-radius: 10px;
@@ -241,6 +256,11 @@ menu {
     background-color: rgba(0, 0, 0, 0.774);
 }
 
+aside {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 .texto {
     width: 250px;
     margin-top: -150px;
@@ -251,9 +271,19 @@ menu {
 }
 
 .texto h2 {
+    color: #1e5874;
     padding: 15px 20px;
     font-style: italic;
-    font-size: 1.9em;
+    font-size: 2em;
+    font-weight: 600;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+}
+
+.texto h2#b-en {
+    font-size: 1.8em;
+    width: 300px;
+    text-align: justify;
+    padding: 15px 10px;
 }
 
 .texto .p2 {
@@ -265,13 +295,15 @@ menu {
 
 .texto .p2 a {
     color: white;
-    background-color: brown;
+    letter-spacing: 2px;
+    background-color: var(--darkblue);
     padding: 5px;
     border-radius: 5px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.384);
 }
 
 .texto .p2 a:hover {
-    letter-spacing: 2px;
+    background-color: var(--lighterblue);
 }
 
 .fundo:hover .texto .p2 {

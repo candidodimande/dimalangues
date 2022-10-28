@@ -20,7 +20,23 @@
     }
 }
 
+/*TABLET*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    
+
+    .fundo {
+        width: 500px;
+        p
+        
+    }
+
+    .texto {
+        width: 400px;
+    }
+
+    
+
     .subheader .slogan span {
         position: relative;
         left: 60%;
@@ -48,7 +64,7 @@
     }
 }
 
-
+/*DESKTOP*/
 @media  screen and (min-width: 1024px) {
     .logo  img {
         width: 200px;
