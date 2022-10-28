@@ -90,14 +90,16 @@ menu {
     font-style: italic;
     position: relative;
     left: 50%;
-    top: 40px;
+    top: 60px;
+    letter-spacing: 3px;
     transform: translate(-50%, -50%);
 
     
 }
 
 .subheader .slogan .span01 {
-    font-size: 2.5em;
+    font-size: 2.2em;
+    width: 250px;
 }
 
 .subheader .slogan .span02 {
@@ -105,8 +107,8 @@ menu {
 }
 
 .subheader .slogan .span03 {
-    margin-top: 40px;
-    font-size: 5em;
+    margin-top: 10px;
+    font-size: 7em;
 }
 
 .subheader .paragraph span {

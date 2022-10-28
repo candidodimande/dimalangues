@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 @media  screen and (min-width: 768px) {
-
+    .logo  img {
+        width: 200px;
+    }
     
     .menu-button {
         display: none;
@@ -53,6 +55,30 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
+    }
+
+    .subheader .slogan span {
+        position: relative;
+        left: 70%;
+        top: 100px;
+    }
+
+    .subheader .slogan .span01 {
+        font-size: 4em;
+        width: 100%;
+    }
+
+    .subheader .slogan .span03 {
+        margin-top: 50px;
+        font-size: 7.5em;
+    }
+
+    .subheader .paragraph span {
+        position: relative;
+        top: 5%;
+        left: 20%;
+
+        font-size: 1.5em;
     }
 }
 
