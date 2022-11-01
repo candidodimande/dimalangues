@@ -7,9 +7,10 @@
     <title>um Hub de línguas</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-queries.css">
+    <link rel="stylesheet" href="estilos/scripts.css">
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body>
+<body onresize="mudouTamanho">
     <header>
         <nav>
             <div class="menu-button_logo">
@@ -50,6 +51,7 @@
     </div>
 
     <main>
+        <!--CARD-1-->
         <section class="cards01">
             <div class="fundo">
                 <div class="imagem-en"></div>
@@ -88,11 +90,26 @@
             </div>
         </section>
 
-        <article class="login">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita autem saepe excepturi ipsam veritatis maxime similique? Accusantium, ea cum inventore ducimus officiis nobis voluptate magni nam sed, laboriosam velit ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto labore tempore magnam vel iusto quisquam maiores, autem, nemo inventore unde nostrum. Dolorem quo rem modi eaque recusandae adipisci, provident saepe?</p>
+        <!--FORMULARIO-->
+        <article class="formulario-fundo">
+            <div class="formulario">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corporis non repudiandae sit voluptatum similique sunt quia aperiam distinctio consequuntur hic assumenda ducimus architecto unde laudantium. Nulla distinctio vel maiores.</p>
+                <form action="login.hp">
+                    <div class="campo">
+                        <label class="email-senha" for="ilogin">Email</label>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu Email" autocomplete="email" required maxlength="30">
+                
+                    </div>
+                    <div class="campo">
+                        <label class="email-senha" for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="email" required minlength="8" maxlength="20">
+                    </div>
+                    <input class="button" type="submit" value="Subscreve-se">
+                </form>
+            </div>
         </article>
 
-
+        <!--CARD-2-->
         <section class="cards02">
             <div class="fundo">
                 <div class="imagem-pt"></div>
@@ -131,34 +148,38 @@
             </div>
 
         </section>
-
+        <!--ENDERECO-->
         <article class="redes-sociais">
-
-            <ul>
-                <li class="endereço">Endereço:</li>
+                <div class="paragrafo_adress-list">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore ad at praesentium unde! Reprehenderit deleniti provident itaque nobis dolorum hic id maxime iure quo, aliquid eaque autem, voluptatibus ex.</p>
                     <ul>
-                        <li>Av. Dom Alexandre</li>
-                        <li>Maputo, Moçambique</li>
-                        <li>Telefone: 85 04 34 746</li>
-                        <li>Email: info@dimalangues.co.mz</li>
-                    </ul>   
-            </ul>
+                        <li class="endereco">Endereço:</li>
+                            <ul id="address-list">
+                                <li>Av. Dom Alexandre</li>
+                                <li>Maputo, Moçambique</li>
+                                <li>Telefone: 85 04 34 746</li>
+                                <li>Email: info@dimalangues.co.mz</li>
+                            </ul>
+                    </ul>
+                </div>
 
-            <a href=""><img width="35" src="imagens/icon/fb.png" alt="logo"></a>
-            <a href=""><img width="35" src="imagens/icon/instagram.png" alt="logo"></a>
-            <a href=""><img width="35" src="imagens/icon/twitter.png" alt="logo"></a>
-            <a href=""><img width="35" src="imagens/icon/Linkedin.png" alt="logo"></a>
-            <a href=""><img width="35" src="imagens/icon/youtube.png" alt="logo"></a>
+            <a href=""><img width="45" src="imagens/icon/fb.png" alt="logo"></a>
+            <a href=""><img width="45" src="imagens/icon/instagram.png" alt="logo"></a>
+            <a href=""><img width="45" src="imagens/icon/twitter.png" alt="logo"></a>
+            <a href=""><img width="45" src="imagens/icon/Linkedin.png" alt="logo"></a>
+            <a href=""><img width="45" src="imagens/icon/youtube.png" alt="logo"></a>
         </article>
     </main>
 
+    <!--FOOTER-->
     <footer>
         <p>&copy; <strong>Dimalangues</strong> - 2022</p>
         <p>copyright - Todos os direitos reservados</p>
         <p>desenvolvido por:</p>
-        <p><strong><a href="https://github.com/candidodimande" target="_blank">CADTECH</a></strong></p>
+        <p><strong><a href="https://github.com/candidodimande" target="_blank"><strong id="blue">CAD</strong>TECH</a></strong></p>
     </footer>
     <script src="scripts/menu.js"></script>
-    <script src="scrollreveal.js"></script>
+    <script src="scripts/scrollreveal.js"></script>
+    <script src="scripts/tamanho.js"></script>
 </body>
 </html>

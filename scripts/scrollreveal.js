@@ -1,3 +1,3 @@
+ScrollReveal() .reveal('.fundo', {duration: 1000});
 
-
-ScrollReveal().reveal('.fundo', {duration: 2000});
+ScrollReveal() .reveal('.formulario');

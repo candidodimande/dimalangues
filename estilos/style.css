@@ -50,17 +50,20 @@ body {
 menu {
     background-color: rgba(0, 0, 0, 0.829);
     height: 0;
-    transition: 500ms ease;
+    transition: 700ms ease;
     overflow-y: hidden;
+
+   
+    
 }
 
 .menu-list {
     transform: translate(-50%);
-    transition: transform 500ms;
+    transition: transform 700ms;
 }
 
 .menu-list li {
-    padding: 25px 50px;
+    padding: 10px 40px;
     border-top: 1px solid rgba(0, 0, 0, 0.055);
     letter-spacing: 3px;
 }
@@ -76,9 +79,11 @@ menu {
 }
 
 .subheader {
-    background: var(--lightblue) url('/imagens/fundo/fundo-main.png') no-repeat center center;
+    background: #132a34f6 url('/imagens/fundo/fundo-main.png') no-repeat center center;
     background-size: cover;
     height: 100%;
+    position: relative;
+    margin-top: 20px;
    
 }
 
@@ -164,7 +169,7 @@ menu {
     overflow-x: hidden;
      
 
-    background: var(--darkblue) url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
+    background: white url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     padding: 30px;
@@ -172,19 +177,17 @@ menu {
 
 .fundo {
     margin-bottom: 20px;
-    background-color: white;
-    padding: 30px;
-    overflow-y: hidden;
-    background-color: rgba(255, 255, 255, 0.712);
-    border-radius: 10px;
-     
     
+    padding: 0px;
+    overflow-y: hidden;
+    background-color: rgba(0, 0, 0, 0.411);
+    border-radius: 10px;
 }
 
 .fundo:hover {
     border-radius: 10px;
-    border: 3px solid rgba(0, 0, 0, 0.26);
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.575);
+    
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
     transform: scale(1.05);
     transition: 700ms ease;
 }
@@ -192,15 +195,16 @@ menu {
 
 .imagem-en {
     padding: 30px;
-    background: url('/imagens/fundo/fundo01.jpg') no-repeat center center;
-    border-radius: 10px;
+    background: #1f5a75 url('/imagens/fundo/fundo01.jpg') no-repeat center center;
     text-align: center;
     height: 150px;
+    border-radius: 10px ;
+    
 }
 
 .imagem-fr {
     padding: 30px;
-    background: url('/imagens/fundo/fundo02.jpg') no-repeat center right;
+    background: #1f5a75 url('/imagens/fundo/fundo02.jpg') no-repeat center right;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -210,7 +214,7 @@ menu {
 
 .imagem-esp {
     padding: 30px;
-    background: url('/imagens/fundo/fundo03.jpg') no-repeat center center;
+    background: #1f5a75 url('/imagens/fundo/fundo03.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -220,7 +224,7 @@ menu {
 
  .imagem-pt {
     padding: 30px;
-    background: url('/imagens/fundo/fundo-4.jpg') no-repeat center center;
+    background: #1f5a75 url('/imagens/fundo/fundo-4.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -230,7 +234,7 @@ menu {
 
 .imagem-ch {
     padding: 30px;
-    background: url('/imagens/fundo/fundo-5.jpg') no-repeat center center;
+    background: #1f5a75 url('/imagens/fundo/fundo-5.jpg') no-repeat center center;
     background-size: cover;
     border-radius: 10px;
     text-align: center;
@@ -240,7 +244,7 @@ menu {
 
 .imagem-ben {
     padding: 30px;
-    background: url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
+    background: #1f5a75 url('/imagens/fundo/fundo-b-english.jpg') no-repeat center center;
     border-radius: 10px;
     text-align: center;
     height: 150px;
@@ -252,7 +256,7 @@ menu {
     padding: 30px;
     height: 150px;
 
-    border-radius: 10px;
+    border-radius: 10px ;
     background-color: rgba(0, 0, 0, 0.774);
 }
 
@@ -265,7 +269,7 @@ aside {
     width: 250px;
     margin-top: -150px;
     text-align: justify;
-    color: black;
+    color: white;
     padding: 10px;
     line-height: 1.7em;
 }
@@ -312,20 +316,78 @@ aside {
     
 }
 
-article.login {
-    max-width: 500px;
-    margin: auto;
-    padding: 30px;
+
+
+article.formulario-fundo {
+    background-image: linear-gradient(to top, var(--darkblue), var(--lighterblue) );
+    height: 100%;
+    
 }
 
+.formulario {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+div p {
+    margin: auto;
+    max-width: 300px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: white;
+    line-height: 1.5em;
+}
+
+.email-senha {
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#ilogin {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    margin: 5px;
+    width: 250px;
+}
+
+#isenha {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    margin: 5px;
+    margin-left: 2px;
+    width: 250px;
+    
+}
+
+.button {
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border: 3px solid var(--lightblue);
+    background: none;
+    margin: 5px;
+    
+    letter-spacing: 1.5px;
+    
+}
 .redes-sociais {
-    background-color: rgba(0, 0, 0, 0.863);
-    padding: 15px 20px;
+    background-image: linear-gradient(to left, black, rgba(0, 0, 0, 0.897));
+    padding: 20px 20px;
+    
 }
 
 .redes-sociais ul {
-   margin-left: 20px;
    color: white;
+   padding-top: 30px;
+
+}
+
+.redes-sociais ul #address-list {
+    padding-top: 5px;
 }
 
 .redes-sociais a img {
@@ -337,8 +399,14 @@ article.login {
     margin-left: 5px;
 }
 
+
+.redes-sociais p {
+    color: white;
+    text-align: center;
+}
+
 footer {
-    background-color: rgba(0, 0, 0, 0.925);
+    background-color: rgba(0, 0, 0, 0.979);
     text-align: center;
 
     padding: 30px;
@@ -357,18 +425,19 @@ footer a:hover {
     text-decoration: underline;
 }
 
+#blue {
+    color: var(--darkblue);
+    font-weight: bolder;
+}
+
 /*SCRIPTS*/
+
 .show-menu {
-    height: 100%;
-    transition: 500ms ease;
+    height: 283px;
+    transition: 700ms ease;
 }
 
 .show-menu-list {
     transform: translate(0);
-    transition: transform 500ms;
-
+    transition: 700ms ease;
 }
-
-/*.fundo {
-    visibility: hidden;
-}*/
