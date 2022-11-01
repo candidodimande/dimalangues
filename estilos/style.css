@@ -48,7 +48,7 @@ body {
 }
 
 menu {
-    background-color: rgba(0, 0, 0, 0.829);
+    background-color: rgba(0, 0, 0, 0.979);
     height: 0;
     transition: 700ms ease;
     overflow-y: hidden;
@@ -83,7 +83,7 @@ menu {
     background-size: cover;
     height: 100%;
     position: relative;
-    margin-top: 20px;
+    
    
 }
 
