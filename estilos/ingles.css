@@ -85,12 +85,6 @@ menu {
     
 }
 
-#login {
-    position: relative;
-    left: 50%;
-    top: -50%;
-}
-
 #login a {
     background-color: red;
     padding: 10px;
