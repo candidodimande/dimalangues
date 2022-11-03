@@ -81,6 +81,19 @@ menu {
 
 }
 
+#login {
+    position: relative;
+    left: 50%;
+}
+
+#login a {
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
 .menu-list li a {
     color: var(--darkblue);
     font-weight: light;
@@ -114,7 +127,7 @@ menu {
 /*SCRIPTS*/
 
 .show-menu {
-    height: 150px;
+    height: 165px;
     transition: 700ms ease;
 }
 
