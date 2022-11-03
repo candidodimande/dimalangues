@@ -84,6 +84,7 @@ menu {
 #login {
     position: relative;
     left: 50%;
+    top: -50%;
 }
 
 #login a {
