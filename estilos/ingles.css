@@ -77,8 +77,12 @@ menu {
 .menu-list li {
     padding: 9px 20px;
     letter-spacing: 3px;
-    
+}
 
+.menu-list li a {
+    color: var(--darkblue);
+    font-weight: 500;
+    
 }
 
 #login {
@@ -95,11 +99,7 @@ menu {
     
 }
 
-.menu-list li a {
-    color: var(--darkblue);
-    font-weight: light;
-    
-}
+
 
 .subheader {
     background: var(--lightblue);
