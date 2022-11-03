@@ -24,6 +24,7 @@ html {
 body {
     height: 100%;
     overflow-x: hidden;
+    background-color: white;
 }
 
 main {
@@ -31,12 +32,20 @@ main {
    
 }
 
+.map {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+
 .menu-button-logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: #0f2028;
+    padding: 15px;
 
+    overflow-x: hidden;
 }
 
 .menu-button {
@@ -57,7 +66,10 @@ menu {
 }
 
 .menu-list {
-    letter-spacing: 3px;
+   position: relative;
+   left: 220px;
+    
+
 }
 
 .menu-list li {
